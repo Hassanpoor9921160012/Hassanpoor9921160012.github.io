@@ -1,0 +1,54 @@
+@import url(general.css);
+table#table-ads th:nth-child(even){
+    background-color:var(--color-red);
+    color: #fff;
+    font-weight: bold;
+}
+#title-page{
+	font-size: 28px;
+	font-weight: bold;
+}
+table#table-ads th:nth-child(odd){
+    background-color: var(--color-green);
+    color: #fff;
+    font-weight: bold;
+}
+#main-section{
+	padding: 10px;
+	margin: 5px;
+	color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #000000;
+	border-style: double;
+}
+
+#titles{
+	color: #ff2233;
+}
+
+#table-ads{
+	border-width: 2px;
+	border-style: solid;
+	border-color: #000055;
+}
+
+#main-menu{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#menu-item{
+	font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+#footer{
+	background-color: #005555;
+	color: #ffffff;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+
+

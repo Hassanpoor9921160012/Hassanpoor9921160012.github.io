@@ -1,0 +1,16 @@
+@import url(general.css);
+
+.react-pic{
+	border: 2px dashed #000;
+}
+
+#back-button{
+	background-color: #34a092;
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	padding: 10px;
+}
+#back-button:hover{
+	background-color: #98a902;
+}

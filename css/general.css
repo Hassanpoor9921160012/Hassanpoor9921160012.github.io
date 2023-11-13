@@ -1,0 +1,90 @@
+:root{ 
+    --color-red: rgb(230 63 63);
+    --color-green: rgb(17 145 66);
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url('./../fonts/Vazir-Regular-FD.woff2') format('woff2'), 
+         url('./../fonts/Vazir-Regular-FD.woff') format('woff'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-variant: small-caps;
+    line-height: 1.6;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+}
+
+#main-menu {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+#main-menu span {
+    margin: 0 10px;
+}
+
+#main-section {
+    margin-top: 145px!important;
+}
+
+body, aside, nav, a, p, h1, h2, h3, h4, h5, h6{
+    font-family: "Vazir", tahoma;
+}
+
+@media screen and (max-width: 600px) {
+    body, aside, nav, a, p, h1, h2, h3, h4, h5, h6{
+    font-size: 12px;}
+    #picture{
+        width: 80%;
+    }
+} 
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ff2233;
+    font-size: larger;
+}
+a:visited{
+    text-decoration: underline;
+}
+a:active{
+    color: #000;
+}
+@media print{
+    body {
+        color: #000; 
+    }
+
+    #main-menu {
+        display: none;
+    }
+
+    #main-section {
+        border: none;
+    }
+}
+#menu-item{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+#footer{
+    background-color: #005555;
+    color: #ffffff;
+    padding: 5px;
+    margin-top: 20px;
+}
