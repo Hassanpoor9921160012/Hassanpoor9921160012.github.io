@@ -69,6 +69,30 @@ how
   term. Blank lines are not allowed
   between term and definition.
 
+
+.. container:: grid
+
+    .. container:: col-6
+
+        **Advantages of reStructuredText (RST):**
+
+        1. **Readability:** RST is designed to be easy to read and write, making it accessible for both developers and non-developers.
+
+        2. **Structured Documentation:** RST supports a structured approach to documentation, allowing for easy organization of content into sections, lists, and more.
+
+        3. **Cross-Platform Compatibility:** RST is widely supported and can be converted to various formats such as HTML, PDF, and more.
+
+    .. container:: col-6
+
+        **Disadvantages of reStructuredText (RST):**
+
+        1. **Learning Curve:** While RST is relatively simple, there is still a learning curve, especially for those new to markup languages.
+
+        2. **Limited Styling:** Compared to some other markup languages, RST has limited styling options, which may be a drawback for those who require highly stylized documentation.
+
+        3. **Complex Tables:** Creating complex tables in RST can be challenging, and the syntax might be less intuitive for complex layouts.
+
+
 :Authors:
     Tony J. (Tibs) Ibbs,
     David Goodger
