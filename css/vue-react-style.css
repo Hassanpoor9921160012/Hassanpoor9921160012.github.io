@@ -14,3 +14,16 @@
 #back-button:hover{
 	background-color: #98a902;
 }
+
+/*Grid settings*/
+
+.react-pic {
+    max-width: 100%;
+    height: auto;
+}
+
+#back-button {
+    display: block;
+    text-align: center;
+    margin: 20px 0;
+}

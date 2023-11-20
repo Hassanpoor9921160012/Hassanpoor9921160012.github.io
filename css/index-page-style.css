@@ -38,16 +38,35 @@ table#table-ads th:nth-child(odd){
 	text-align: center;
 }
 
-#menu-item{
-	font-size: 1rem;
-    font-weight: bold;
-    text-align: center;
+///////////////////////////////////////////////
+
+
+#picture {
+    max-width: 100%;
+    height: auto;
 }
-#footer{
-	background-color: #005555;
-	color: #ffffff;
-	padding: 5px;
-	margin-top: 20px;
+
+#table-ads {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#table-ads th, #table-ads td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#table-ads th {
+    background-color: #f2f2f2;
+}
+
+#titles {
+    margin: 0;
+}
+
+#history, #ads, #library, #rst {
+    text-align: justify;
 }
 
 
