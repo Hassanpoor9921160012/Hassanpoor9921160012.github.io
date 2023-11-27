@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="./css/index-page-style.css" />
-    <title>آموزش طراحی وبسایت</title>
+    <title>سایت</title>
+    </body></html> 
 </head>
 <body dir="rtl">
     <header>
@@ -36,7 +37,7 @@
         			<li>اسکرول کردن در گالری تصاویر</li>
         			<li>پخش صوت و تصویر</li>
         		</ul>
-        		<h2 id="ads">مزایا و معایب</h2>
+        		<h2 id="ads">مزایا و معایب</h2> 
         		<table border="1px" id="table-ads">
   					<tr>
     					<th>مزایا</th>
@@ -57,6 +58,7 @@
 					<li><a href="vue.html">Vue.js</a></li>
 				</ul>
         	</article>
+            <p id="resource-link" onclick="this.innerHTML='<a href=https://digiato.com/article/2022/04/09/what-is-javascript>برو به سایت</a>';">برای دیدن لینک این مقاله کلیک کنید.</p>
         </section>
 	<section>
         	<article>
@@ -73,5 +75,12 @@
     <footer id="footer">
         <center><pre>© همه حقوق محقوط است</pre></center>
     </footer>
+    <script>
+        console.log(document.domain);
+        var titleElement = document.getElementById('title-page');
+        // titleElement.textContent = 'سایت آموزشی';
+        var resourceLink = document.querySelector('#resource-link');
+        resourceLink.style.fontSize = '20px';
+    </script>
 </body>
 </html>
