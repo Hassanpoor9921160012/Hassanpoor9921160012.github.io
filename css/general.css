@@ -19,13 +19,13 @@ body {
     font-variant: small-caps;
     line-height: 1.6;
 }
-
+/*
 header {
     position: fixed;
     width: 100%;
     top: 0;
     background-color: #fff;
-}
+}*/
 
 #main-menu {
     text-align: center;
@@ -36,11 +36,9 @@ header {
     margin: 0 10px;
 }
 
-#main-section {
-    margin-top: 145px!important;
-}
 
-body, aside, nav, a, p, h1, h2, h3, h4, h5, h6{
+
+body, button, form, label, input, aside, nav, a, p, h1, h2, h3, h4, h5, h6{
     font-family: "Vazir", tahoma;
 }
 
