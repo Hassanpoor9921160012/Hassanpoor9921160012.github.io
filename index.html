@@ -22,6 +22,7 @@
     			<span><a id="menu-item" href="register.html">ثبت نام در سایت</a></span>
     		</center>
     	</nav>
+        <button id="darkModeBtn">حالت تیره</button>
     </header>
     <main id="main-section">
         <section>
@@ -52,6 +53,9 @@
     					<td>عدم برخورداری از امنیت کافی</td>
   					</tr>
 				</table>
+                <p>آیا شما هم مزیت و یا عیب دیگری می‌شناسید؟</p>
+                <button id="addCustomBtn">اضافه کنید</button>
+                <div id="customFormContainer"></div>
 				<h2 id="library">کتابخانه های Javascript</h2>
 				<ul>
 					<li><a href="react.html">React</a></li>
@@ -75,12 +79,7 @@
     <footer id="footer">
         <center><pre>© همه حقوق محقوط است</pre></center>
     </footer>
-    <script>
-        console.log(document.domain);
-        var titleElement = document.getElementById('title-page');
-        // titleElement.textContent = 'سایت آموزشی';
-        var resourceLink = document.querySelector('#resource-link');
-        resourceLink.style.fontSize = '20px';
-    </script>
+
+<script src="script.js"></script>
 </body>
 </html>
